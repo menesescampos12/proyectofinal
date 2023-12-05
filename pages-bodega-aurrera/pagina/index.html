@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos.css">
+
+    
+    <title>Bodega Aurrera</title>
+</head>
+
+<body>
+
+    <section id ="carousel-container">
+        <div id="image-container">
+          <img class="carousel-image" src="img/imagen.jpeg" alt="Imagen 1">
+      <img class="carousel-image" src="img/carrusel.jpeg" alt="Imagen 2">
+          <!-- Agrega más imágenes según sea necesario -->
+        </section>
+        <button id="prevBtn" onclick="prevSlide()">Anterior</button>
+        <button id="nextBtn" onclick="nextSlide()">Siguiente</button>
+      
+      </div>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>PAGINA OFICIAL</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="c:\Users\52744\Downloads\45-login\45-login" class="seleccionado" onclick="seleccionar(this)">REGISTRATE</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PRODUCTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <div class="ful-img" id="fulImgBox">
+                        <img src="imgs/1.jpg" id="fulImg" alt="">
+                        <span onclick="closeImg()">X</span>
+                    </div>
+                
+                
+                    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.youtube.com/@BodegaAurreraTV"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/BodegaAurrera?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/bodegaaurrera?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos a Bodega Aurrera</p>
+                <h2>Bodega Aurrera la campeona de los precios Bajos </h2>
+                <p class="descripcion">Bodega Aurrera es una tienda de conveniencia en México creado en el año 1970  . </p>
+                <a href="#portfolio">Ir a la pagina</a>
+            </div>
+        </div>
+    </section>
+
+
+  
+ 
+            
+          
+            
+         
+        <!-- Agrega más imágenes según sea necesario -->
+        
+       
+  
+ 
+        
+
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/lucha.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h3>Tiendas de autoservicio más importante de México, ofrece artículos domésticos, ropa blanca, electrónica y hasta servicios financieros a los clientes</h3>
+            <p>Al ser una de las tiendas de autoservicio más importante de México, ofrece artículos domésticos, ropa blanca, electrónica y hasta servicios financieros a los clientes. Bodega Aurrera, en la actualidad forma parte de Grupo Walmart, incluso ofrece promociones y ofertas para sus clientes</p>
+        </div>
+        <img src="img/" alt="">
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">SERVICIOS EN BODEGA AURRERA</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Cobro de envíos en Bodega Aurrera</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>fácil</li>
+                    <li>segura </li>
+                    <li>confiable</li>
+                </ul>
+                <img src="img/cobros.png" alt="">
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Garantía Extendida Bodega Aurrera</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>2 años de garantía (adicional a la del fabricante)</li>
+                    <li>servicios a la hora de productos</li>
+                    <li>1 año en tecnologias</li>
+            
+                </ul>
+                <img src="img/servicios.jpeg" alt="">
+            </div>
+            
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Pagos de servicios</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Luz</li>
+                    <li>Agua</li>
+                    <li>compañias telefonicas</li>
+                </ul>
+            <img src="img/pagos.jpeg" alt="">
+            </div>
+           
+           
+    </section>
+
+    </div>
+
+    <!-- SECCION DE PRODUCTOS -->
+    
+    <section id="portfolio">
+        <h3 class="titulo-seccion">GALERIA DE IMAGENES DE PRODUCTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/SANSUNG.webp" alt="">
+                <div class="info">
+                    <h4>Samsung Galaxy A54 5G en Lima con 128GB de ROM y 8GB de RAM, modelo SM-A546ELGFLTM</h4>
+                    <p>8GB</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/PANTALLA.webp" alt="">
+                <div class="info">
+                    <h4>TV Philips 40 Pulgadas Roku Full HD LED 40PFL4775/F8</h4>
+                    <p>$3,690.00</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/LAVADORA.webp" alt="">
+                <div class="info">
+                    <h4>Lavadora LG 12 Kg Blanca</h4>
+                    <p>$12,590.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/COLCHON.webp" alt="">
+                <div class="info">
+                    <h4>Colchon Restonic Fantastic Matrimonial + 2 Almohadas + Colchonsin + Juego de Sabanas Ensueño Restonic
+                    </h4>
+                    <p>$3,579.00</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/XBOX.webp" alt="">
+                <div class="info">
+                    <h4>Consola Xbox Series S 512GB, Edición Digital, Color Blanco</h4>
+                    <p>$4,998.00</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/CONSOLA.webp" alt="">
+                <div class="info">
+                    <h4>Consola Nintendo Switch V1.1 Gris</h4>
+                    <p>$5,000</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/PERFUMES.webp" alt="">
+                <div class="info">
+                    <h4>Perfume Nautica Voyage Eau de Toilette 100 ml</h4>
+                    <p>$319.00</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/MOTOS.webp" alt="">
+                <div class="info">
+                    <h4>Motocicleta Vento Xpress 170 2024 VENTO XPRESS Trabajo</h4>
+                    <p>$16,999.00</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/POMADAS.webp" alt="">
+                <div class="info">
+                    <h4>Bálsamo Herbal Green Marvel 250 gms
+                    </h4>
+                    <p>$809.00</p>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
